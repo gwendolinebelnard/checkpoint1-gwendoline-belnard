@@ -1,0 +1,30 @@
+
+nav ul li {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+nav ul li a {
+  color: black;
+  padding: 0 auto;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: rgba(255,255,255,0.5);
+  text-decoration: underline;
+}
+
+h1 a:focus, h1 a:hover {
+   text-decoration: none;
+}
+  
+div.col-xs-9 {
+  margin-top: 23px;
+}
+
+header h1 {
+	position: absolute;
+}
